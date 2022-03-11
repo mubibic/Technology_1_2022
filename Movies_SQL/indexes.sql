@@ -8,3 +8,7 @@ CREATE INDEX movies_ids_titles ON movies (id, title);
 DROP INDEX movie_id ON movies;
 
 SHOW ENGINES;
+
+
+#PROS: SELECT is much faster
+#CONS: INSERT, UPDATE, DELETE is much slower
